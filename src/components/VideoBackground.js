@@ -28,7 +28,7 @@ const VideoBackground = ({ id }) => {
             title="YouTube video player" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
-            FrameBorder="0"
+            // FrameBorder="0"
             allowFullScreen>    
         </iframe>
     </div>

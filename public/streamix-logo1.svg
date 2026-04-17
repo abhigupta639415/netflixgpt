@@ -1,0 +1,38 @@
+<svg width="100%" viewBox="0 0 680 260" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">AbhiFlix Logo White Background</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A Netflix-style streaming logo personalized with the name Abhishek on white background</desc>
+
+  <defs>
+    <linearGradient id="redgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e50914"/>
+      <stop offset="100%" stop-color="#b20710"/>
+    </linearGradient>
+    <linearGradient id="goldgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5a623"/>
+      <stop offset="100%" stop-color="#f8c65a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background -->
+  <rect x="100" y="40" width="480" height="180" rx="18" fill="#ffffff" stroke="#e5e5e5" stroke-width="1.5" style="fill:rgb(255, 255, 255);stroke:rgb(229, 229, 229);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Red left accent bar -->
+  <rect x="100" y="40" width="12" height="180" rx="6" fill="url(#redgrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- A circle monogram -->
+  <circle cx="163" cy="130" r="38" fill="url(#redgrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="163" y="143" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="42" font-weight="900" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:42px;font-weight:900;text-anchor:middle;dominant-baseline:auto">A</text>
+
+  <!-- ABHI in gold/orange -->
+  <text x="218" y="122" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#e50914" letter-spacing="2" style="fill:rgb(229, 9, 20);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:48px;font-weight:900;text-anchor:start;dominant-baseline:auto">ABHI</text>
+
+  <!-- FLIX in dark -->
+  <text x="218" y="175" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#111111" letter-spacing="2" style="fill:rgb(17, 17, 17);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:48px;font-weight:900;text-anchor:start;dominant-baseline:auto">FLIX</text>
+
+  <!-- Thin red underline under ABHI -->
+  <rect x="218" y="128" width="192" height="3" rx="1" fill="#e50914" opacity="0.5" style="fill:rgb(229, 9, 20);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Tagline -->
+  <text x="460" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#999" letter-spacing="3" style="fill:rgb(153, 153, 153);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:end;dominant-baseline:auto">BY ABHISHEK</text>
+
+</svg>

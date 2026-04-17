@@ -1,27 +1,39 @@
-<svg width="400" height="160" viewBox="0 0 400 160" role="img" xmlns="http://www.w3.org/2000/svg">
-  <title>Streamix Logo</title>
+<svg width="100%" viewBox="0 0 680 260" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">AbhiFlix Golden Logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A Netflix-style streaming logo with golden theme personalized for Abhishek</desc>
+
   <defs>
-    <linearGradient id="grd" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e63946"/>
-      <stop offset="100%" stop-color="#ff6b6b"/>
+    <linearGradient id="goldgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5a623"/>
+      <stop offset="100%" stop-color="#c8820a"/>
+    </linearGradient>
+    <linearGradient id="goldbright" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#f5a623"/>
+      <stop offset="100%" stop-color="#ffd700"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect x="0" y="0" width="400" height="160" rx="16" fill="#111"/>
+  <!-- Golden background -->
+  <rect x="100" y="40" width="480" height="180" rx="18" fill="url(#goldgrad)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Left red bar -->
-  <rect x="0" y="0" width="10" height="160" rx="4" fill="url(#grd)"/>
+  <!-- Dark left accent bar -->
+  <rect x="100" y="40" width="12" height="180" rx="6" fill="#7a4f00" style="fill:rgb(122, 79, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Play triangle -->
-  <polygon points="28,45 28,105 72,75" fill="url(#grd)"/>
+  <!-- A circle monogram -->
+  <circle cx="163" cy="130" r="38" fill="#7a4f00" style="fill:rgb(122, 79, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="163" y="143" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="42" font-weight="900" fill="#ffd700" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:42px;font-weight:900;text-anchor:middle;dominant-baseline:auto">A</text>
 
-  <!-- STREA text -->
-  <text x="88" y="98" font-family="Arial Black, Arial, sans-serif" font-size="52" font-weight="900" letter-spacing="2" fill="white">STREA</text>
+  <!-- ABHI in dark brown -->
+  <text x="218" y="122" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#3b1f00" letter-spacing="2" style="fill:rgb(59, 31, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:48px;font-weight:900;text-anchor:start;dominant-baseline:auto">ABHI</text>
 
-  <!-- MIX text in red -->
-  <text x="283" y="98" font-family="Arial Black, Arial, sans-serif" font-size="52" font-weight="900" letter-spacing="2" fill="url(#grd)">MIX</text>
+  <!-- FLIX in white -->
+  <text x="218" y="175" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="#ffffff" letter-spacing="2" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, sans-serif;font-size:48px;font-weight:900;text-anchor:start;dominant-baseline:auto">FLIX</text>
+
+  <!-- Bright gold underline -->
+  <rect x="218" y="128" width="192" height="3" rx="1" fill="#fff" opacity="0.5" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
   <!-- Tagline -->
-  <text x="200" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#aaa" letter-spacing="4">WATCH WITHOUT LIMITS</text>
+  <text x="460" y="210" text-anchor="end" font-family="Arial, sans-serif" font-size="11" fill="#3b1f00" letter-spacing="3" style="fill:rgb(59, 31, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:end;dominant-baseline:auto">BY ABHISHEK</text>
+
 </svg>
