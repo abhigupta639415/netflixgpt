@@ -13,6 +13,10 @@
   - Created Redux-Store with userSlice
   - Implimented Sign Out feature 
   - Fetch Movies From TMDB api Provider
+  - custom hook for nowPlayingMovies
+  - fetch data for tailer video
+  - Embedded the youtube video
+  - make container more beutifull 
 
 
 
