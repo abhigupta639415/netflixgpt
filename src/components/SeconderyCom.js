@@ -9,11 +9,11 @@ const movies = useSelector((state) => state.movies) ;
     <div className='bg-black'>
        <div className='-mt-40 relative z-20'>
         <MoviesList title={"Now Playing"} movies={movies.addNowPlayingMovies} />
-        <MoviesList title={"Now Playing"} movies={movies.addNowPlayingMovies} />
-         <MoviesList title={"Now Playing"} movies={movies.addNowPlayingMovies} />
-          <MoviesList title={"Now Playing"} movies={movies.addNowPlayingMovies} />
-           <MoviesList title={"Now Playing"} movies={movies.addNowPlayingMovies} />
-            <MoviesList title={"Now Playing"} movies={movies.addNowPlayingMovies} />
+        <MoviesList title={"Popular"} movies={movies.addNowPlayingMovies} />
+         <MoviesList title={"Top Rated"} movies={movies.addNowPlayingMovies} />
+          <MoviesList title={"Upcoming"} movies={movies.addNowPlayingMovies} />
+           <MoviesList title={"Horror"} movies={movies.addNowPlayingMovies} />
+            <MoviesList title={"Comedy"} movies={movies.addNowPlayingMovies} />
        </div>
     </div>
   )
