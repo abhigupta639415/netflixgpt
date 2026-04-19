@@ -4,10 +4,10 @@
 
 // openai.js
 import OpenAI from "openai";
-import { OPENROUTER_KEY } from "./constant";
+import { OPENAI_API_KEY } from "./constant";
 
 const client = new OpenAI({
-  apiKey: OPENROUTER_KEY,
+  apiKey: OPENAI_API_KEY,
   baseURL: "https://openrouter.ai/api/v1",  // ✅ point to openrouter
   dangerouslyAllowBrowser: true
 });
