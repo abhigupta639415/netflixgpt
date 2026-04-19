@@ -5,6 +5,7 @@ import { checkValidation } from './validate.js'
 import {signInWithEmailAndPassword , createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../utility/firebase.js' ;
 import { useNavigate } from 'react-router-dom';
+import { BG_URL } from '../utility/constant.js';
 
 const Login = () => {
   const navigate = useNavigate() ;
@@ -66,7 +67,7 @@ const Login = () => {
         <Header />
 
         <div className='absolute'>
-        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/6a77b075-d304-4342-a055-c9e435c98b6f/web/IN-en-20260406-TRIFECTA-perspective_82b47017-148f-45be-8db8-d82a0f936d18_large.jpg" alt="Netflix Background"  />
+        <img src= {BG_URL } alt="Netflix Background"  />
         </div>
 
         <div>
