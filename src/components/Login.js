@@ -78,7 +78,7 @@ const Login = () => {
             <input ref={password} className='p-4 my-4 w-full bg-gray-600' type="password" placeholder='Password'/>
             <p className='text-red-500 text-lg'>{errorMessage}</p>
             <button className='p-4 my-6 bg-red-700 w-full hover:bg-red-800 rounded-xl' onClick={handleButtomClick}>{IsSignedIn?"Login":"Sign Up"}</button>
-            <p className='p-2 my-4' onClick={toggleSignIn}>{IsSignedIn?"New to Netflix?":"Already have an account?"} <span className='text-blue-500 cursor-pointer'> {IsSignedIn?"Sign up now":"Log in now"}</span></p>
+            <p className='p-2 my-4' onClick={toggleSignIn}>{IsSignedIn?"New to ABHI-FLIX?":"Already have an account?"} <span className='text-blue-500 cursor-pointer'> {IsSignedIn?"Sign up now":"Log in now"}</span></p>
           </form>
         </div>
 
